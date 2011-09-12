@@ -7,10 +7,23 @@
 <script type="text/javascript" src="js/karma.js"></script>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="css/karma-cool-blue.css" rel="stylesheet" type="text/css" />
-<link rel="shortcut icon" href="#"/>
+<link rel="shortcut icon" href="./images/_global/favicon.ico"/>
 <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/lt8.css" media="screen"/><![endif]-->
 <!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" media="screen"/><![endif]-->
-</head>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-55835-19']);
+  _gaq.push(['_setDomainName', '.newscloud.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script></head>
 <body>
 <div id="wrapper">
 <div id="header">
@@ -316,5 +329,6 @@
 <script type="text/javascript">
 if (TTjquery.browser.msie) { TTjquery(window).load(function() {TTjquery('.big-banner #main .main-area').css("padding-top", "118px");}); } else {}
 </script>
+
 </body>
 </html>
