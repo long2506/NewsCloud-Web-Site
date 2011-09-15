@@ -1623,6 +1623,7 @@ Version: 2.0
 /*---------------------------------------------------------------*/
 
 #content .colored_box, #main #content .colored_box strong {color:#FFF;padding: 0;margin: 0 0 20px 0;font-size:13px;width:100%;}
+#content .colored_box_narrow {width: 550px;}
 #main #content .colored_box p {padding: 30px !important;line-height:23px;}
 .colored_box{
 -moz-border-radius: 5px;
